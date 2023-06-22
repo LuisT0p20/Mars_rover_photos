@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Mars_rover_photos"
         tools:targetApi="31">
         <activity
+            android:name=".menu"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
         <activity
