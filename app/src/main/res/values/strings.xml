@@ -12,6 +12,7 @@
     <string name="launch">Launch</string>
     <string name="sol_martian">Martian Sol</string>
     <string name="page">Page</string>
+    <string name="manifest_sun">Mission Manifest</string>
     <array name="camaras">
         <item>FHAZ</item>
         <item>RHAZ</item>
