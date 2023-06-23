@@ -6,6 +6,21 @@
     <string name="signin">Sign In</string>
     <string name="signup">Sign Up</string>
     <string name="consult_date">Consult by date of the Earth</string>
-    <string name="consult_sun">Consult by Martian Sun</string>
+    <string name="consult_sun">Consult by Martian Sol</string>
     <string name="go_favorites">Favorites</string>
+    <string name="querying_sol">Querying by Martian Sol</string>
+    <string name="launch">Launch</string>
+    <string name="sol_martian">Martian Sol</string>
+    <string name="page">Page</string>
+    <array name="camaras">
+        <item>FHAZ</item>
+        <item>RHAZ</item>
+        <item>MAST</item>
+        <item>CHEMCAM</item>
+        <item>MAHLI</item>
+        <item>MARDI</item>
+        <item>NAVCAM</item>
+        <item>PANCAM</item>
+        <item>MINITES</item>
+    </array>
 </resources>
