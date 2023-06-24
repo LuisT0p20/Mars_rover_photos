@@ -24,4 +24,6 @@
         <item>PANCAM</item>
         <item>MINITES</item>
     </array>
+    <string name="validation_email">Incorrect Email</string>
+    <string name="validation_password">Incorrect Password</string>
 </resources>
