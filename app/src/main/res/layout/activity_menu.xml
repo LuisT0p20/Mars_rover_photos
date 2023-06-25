@@ -68,12 +68,13 @@
                 tools:layout_editor_absoluteY="293dp"></TextView>
 
             <ImageButton
+                android:id="@+id/btnFechaTierra"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center_vertical"
                 android:contentDescription="ir a layout date"
                 android:layout_marginStart="55dp"
-                android:background="@drawable/next"></ImageButton>
+                android:background="@drawable/ic_next"></ImageButton>
         </LinearLayout>
 
         <View
@@ -123,7 +124,7 @@
                 android:layout_height="50dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="55dp"
-                android:background="@drawable/next"
+                android:background="@drawable/ic_next"
                 android:contentDescription="ir a layout sun"></ImageButton>
         </LinearLayout>
 
@@ -170,11 +171,12 @@
                 tools:layout_editor_absoluteY="293dp"></TextView>
 
             <ImageButton
+                android:id="@+id/btnSolMarciano"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="55dp"
-                android:background="@drawable/next"
+                android:background="@drawable/ic_next"
                 android:contentDescription="ir a layout favorites"></ImageButton>
         </LinearLayout>
 

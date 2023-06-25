@@ -8,11 +8,11 @@
     tools:context=".Querying_sun">
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:id="@+id/btnbackMenuSol"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginTop="40dp"
-        android:background="@drawable/back"
+        android:background="@drawable/ic_back"
         android:contentDescription="ir a menu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.044"
@@ -30,7 +30,7 @@
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/btnbackMenuSol"
         app:layout_constraintTop_toTopOf="parent"></TextView>
 
     <Spinner
@@ -79,6 +79,7 @@
         app:layout_constraintTop_toBottomOf="@+id/spnCamara"></EditText>
 
     <Button
+        android:id="@+id/btnManifestSol"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
