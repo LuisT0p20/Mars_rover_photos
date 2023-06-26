@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="340dp"
+    android:id="@+id/card_sol"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/rounded_input_text"
     app:cardCornerRadius="50dp"
@@ -8,12 +9,14 @@
     android:layout_gravity="center_horizontal"
     android:layout_height="500dp">
     <ImageView
+        android:id="@+id/imgSolMars"
         android:layout_width="290dp"
         android:layout_height="290dp"
         android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"/>
 
     <TextView
+        android:id="@+id/txtSolMars"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
@@ -23,6 +26,7 @@
         android:textColor="@color/black"
         android:textSize="20sp" />
     <TextView
+        android:id="@+id/txtNameSolMars"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
@@ -32,6 +36,7 @@
         android:textColor="@color/black"
         android:textSize="20sp" />
     <TextView
+        android:id="@+id/txtLandingSolMars"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
@@ -41,6 +46,7 @@
         android:textColor="@color/black"
         android:textSize="20sp" />
     <TextView
+        android:id="@+id/txtLaunchSolMars"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
@@ -50,6 +56,7 @@
         android:textColor="@color/black"
         android:textSize="20sp" />
     <TextView
+        android:id="@+id/txtStatusSolMars"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"

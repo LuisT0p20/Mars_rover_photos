@@ -46,4 +46,6 @@ dependencies {
     implementation 'com.jsibbold:zoomage:1.3.1'
     //DEPENDENCIA PARA VALIDACION
     implementation 'com.basgeekball:awesome-validation:4.3'
+    //DEPENDENCIA PARA IMAGENES
+    implementation 'com.squareup.picasso:picasso:2.8'
 }
